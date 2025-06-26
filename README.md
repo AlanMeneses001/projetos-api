@@ -1,5 +1,5 @@
 
-🌐 Descrição para repositório: projetos-com-api
+# 🌐 Descrição para repositório: projetos-com-api
 
 🚀 Projetos práticos desenvolvidos com HTML, CSS e JavaScript, focados no consumo e integração de APIs externas.
 
