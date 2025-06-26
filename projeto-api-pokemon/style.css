@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: rgb(16, 21, 94);
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 250px;
+    height: 200px;
+}
+
+#busca {
+    position: relative;
+    text-align: center;
+    top: -40px;
+}
+
+input#buscarPoke {
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+button#buscarBTN {
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button#buscarBTN:hover {
+    background-color: aliceblue;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+
+.pokemons {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.192);
+}
+
+.pokemons h3 {
+    border-top: 1px solid rgb(16, 187, 10);
+    padding: 5px 0px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pokemons p {
+    border-top: 1px solid green;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 170px;
+    }
+    .pokemons {
+        width: 90%;
+        margin: auto;
+    }
+
+    header img {
+        width: 200px;
+        height: auto;
+    }
+
+}
