@@ -37,6 +37,6 @@ JavaScript ES6+ (DOM, eventos, lógica de consumo de APIs)
 
 Esses projetos marcam minha evolução no consumo de dados reais com JavaScript, me aproximando cada vez mais de aplicações completas e conectadas ao mundo externo.
 
-👉 Para ver projetos apenas com HTML, CSS e JS (sem APIs), acesse o repositório: projetos-estaticos ()
+👉 Para ver projetos apenas com HTML, CSS e JS (sem APIs), acesse o repositório: projetos-estaticos (https://github.com/AlanMeneses001/projetos-estaticos)
 
 
