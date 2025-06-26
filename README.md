@@ -1,7 +1,7 @@
 
 # 🌐 Descrição para repositório: projetos-com-api
 
-🚀 Projetos práticos desenvolvidos com HTML, CSS e JavaScript, focados no consumo e integração de APIs externas.
+# 🚀 Projetos práticos desenvolvidos com HTML, CSS e JavaScript, focados no consumo e integração de APIs externas.
 
 Este repositório reúne meus projetos front-end voltados para o uso de API REST, trabalhando com requisições fetch(), manipulação de dados em JSON, e exibição dinâmica de conteúdos na interface.
 
@@ -17,7 +17,7 @@ Feedback visual ao usuário (loading, mensagens de erro)
 
 Criação de interfaces dinâmicas e responsivas com dados reais
 
-📌 Tecnologias utilizadas:
+# 📌 Tecnologias utilizadas:
 HTML5 (estrutura semântica)
 
 CSS3 (estilização e responsividade)
