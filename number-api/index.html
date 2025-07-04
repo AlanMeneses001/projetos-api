@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number API</title>
+</head>
+
+<body>
+    <header>
+        <h1>Números</h1>
+        <p id="p1">Curiosidades e significados</p>
+        <p id="p2">Digite um número ou data e descubra uma curiosidade sobre ele.</p>
+    </header>
+    <main>
+        <section id="SecNumber">
+                <label for="numero">Número: </label>
+                <input type="number" placeholder="Número..." id="numero" name="numero" required>
+                <button id="btnNumber">Descobrir</button>
+        </section>
+        <section id="SecData">
+                <label for="data">Data: </label>
+                <input type="number" class="data" id="dia" name="data" placeholder="Dia">
+                <input type="number" class="data" id="mes" placeholder="Mês">
+                <button id="btnData">Descobrir</button>
+        </section>
+        <section id="aleatorioNumber">
+                <p title="Descubra a curiosidade de um número aleatório.">
+                    Aleatório: 
+                </p>
+                <button id="btnAleato" title="Clique para receber curiosidade de número aleatório.">Descobrir</button>
+        </section>
+        <section id="curiosidade" class="hidden">
+            
+        </section>
+    </main>
+    <footer>
+        <p id="msg">A <a href="http://numbersapi.com/#random/trivia">NumbersAPI</a> não tem suporte para traduzir diretamente para português, então talvez seja necessário usar a tradução automática do seu navegador!</p>
+        <p id="creditos">Projeto Desenvolvido Por &copy; <a href="https://github.com/AlanMeneses001" target="_blank">Alan Meneses</a></p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: url(img/papelBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+/*Cabeçalho*/
+header {
+    text-align: center;
+    color: black;
+    padding: 10px 0px;
+}
+
+header h1 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -7px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+}
+
+header #p1 {
+    font-size: 13px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+header #p2 {
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+/*Principal*/
+
+main {
+    height: 69%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#SecNumber {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+input#numero {
+    width: 100px;
+    text-indent: 10px;
+    border: none;
+    border-radius: 3px;
+    height: 22px;
+    margin-top: 0px;
+}
+
+button#btnNumber {
+    height: 22px;
+    font-weight: bold;
+    width: 80px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button#btnNumber:hover {
+    background-color: rgb(66, 235, 66);
+    box-shadow: 0px 0px 10px 1px rgb(66, 235, 66);
+    cursor: pointer;
+}
+
+
+#SecData {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+input.data {
+    width: 45px;
+    text-indent: 5px;
+    border: none;
+    border-radius: 3px;
+    height: 22px;
+}
+
+button#btnData {
+    height: 22px;
+    font-weight: bold;
+    width: 85px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button#btnData:hover {
+    background-color: rgb(66, 235, 66);
+    box-shadow: 0px 0px 10px 1px rgb(66, 235, 66);
+    cursor: pointer;
+}
+
+#aleatorioNumber {
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button#btnAleato {
+    height: 22px;
+    font-weight: bold;
+    width: 80px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button#btnAleato:hover {
+    background-color: rgb(66, 235, 66);
+    box-shadow: 0px 0px 10px 1px rgb(66, 235, 66);
+    cursor: pointer;
+}
+
+#curiosidade {
+    background-color: white;
+    width: 320px;
+    text-indent: 10px;
+    margin-top: 60px;
+    font-style: italic;
+    padding: 12px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+}
+
+#curiosidade h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer #msg {
+    font-size: 13px;
+    margin-top: -57px;
+    background-color: rgb(184, 179, 179);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.692);
+}
+
+footer #msg a {
+    color: black;
+    font-weight: bolder;
+}
+
+footer #creditos {
+    background-color: black;
+    color: white;
+    padding: 8.5px;
+}
+
+footer p a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer p a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+@media  (min-width: 600px) and (max-width: 1024px){
+    /*Header*/
+    header h1 {
+        font-size: 96px;
+    }
+    header #p1 {
+        font-size: 17px;
+        margin-top: -5px;
+    }
+    header #p2 {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    /*Principal*/
+    #SecNumber {
+        font-size: 18px;
+        margin-top: -11px;
+    }
+    input#numero {
+        width: 50px;
+        height: 27px;
+        border: 1px solid black;
+    }
+    button#btnNumber {
+        height: 28px;
+        border: 1px solid black;
+        width: 82px;
+        font-size: 13px;
+    }
+    input.data {
+        width: 55px;
+        height: 24px;
+        border: 1px solid black;
+    }
+    button#btnData {
+        height: 27px;
+        border: 1px solid black;
+        width: 85px;
+        font-size: 13px;
+    }
+    #aleatorioNumber {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    button#btnAleato {
+        height: 26px;
+        font-size: 14px;
+        border: 1px solid black;
+        width: 86px;
+    }
+    #curiosidade {
+        width: 600px;
+        text-align: center;
+        margin-top: 120px;
+        height: 100px;
+    }
+    /*Footer*/
+    footer {
+        margin-top: 0px;
+    }
+    footer #msg {
+        padding: 5px;
+        font-size: 13px;
+    }
+    footer #creditos {
+        padding: 13px;
+        font-size: 18px;
+    }
+}
+
+@media  (min-width: 1024px){
+        /*Header*/
+    header h1 {
+        font-size: 93px;
+    }
+    header #p1 {
+        font-size: 16px;
+        margin-top: 1px;
+    }
+    header #p2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    /*Principal*/
+    #SecNumber {
+        font-size: 16px;
+    }
+    input#numero {
+        width: 50px;
+        height: 25px;
+        border: 1px solid black;
+    }
+    button#btnNumber {
+        height: 28px;
+        border: 1px solid black;
+        width: 95px;
+        font-size: 16px;
+    }
+    #SecData {
+        font-size: 17px;
+    }
+    input.data {
+        width: 46px;
+        height: 23px;
+        border: 1px solid black;
+    }
+    button#btnData {
+        height: 30px;
+        border: 1px solid black;
+        width: 84px;
+        font-size: 14px;
+    }
+    #aleatorioNumber {
+        font-size: 17px;
+        margin-top: 7px;
+    }
+    button#btnAleato {
+        height: 28px;
+        font-size: 15px;
+        border: 1px solid black;
+        width: 80px;
+        margin-top: -6px;
+        margin-left: 12px;
+    }
+    #curiosidade {
+        width: 600px;
+        text-align: center;
+        margin-top: 35px;
+        height: 100px;
+    }
+    /*Footer*/
+    footer {
+        margin-top: 0px;
+    }
+    footer #msg {
+        padding: 10px;
+        font-size: 14px;
+    }
+    footer #creditos {
+        padding: 18px;
+        font-size: 13px;
+    }
+}
